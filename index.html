@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snake Game</title>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Original+Surfer&effect=emboss' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="snake" width="608" height="608"></canvas>
+  <div id="buttons">
+    <div class="btn-outer" id="controls-btn-outer">
+      <button class="button" id="controls">Controls</button>
+    </div>
+    <div class="btn-outer" id="restart-btn-outer">
+      <button class="button" id="restart">Restart</button>
+    </div>
+  </div>
+
+  <div class="controls-outer" style="display:none">
+    <div class="controls-inner">
+      <ol>
+        <li>Arrow keys - Directions</li>
+        <li>Esc - Stop the game</li>
+      </ol>
+    </div>
+  </div>
+
+  <script
+    src="https://code.jquery.com/jquery-2.2.4.js"
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html> 
